@@ -1,10 +1,6 @@
 #pragma once
 #include <Windows.h>
 
-/*
-* This scanner functions in an internal en
-*/
-
 
 struct ScanData;
 
