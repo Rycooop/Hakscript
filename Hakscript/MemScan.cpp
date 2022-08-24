@@ -12,7 +12,7 @@ public:
 	char* pattern;
 	char* mask;
 	size_t patternLen;
-	DWORD protect = 0x0;//set this to the protection you want scanned; if left at 0 all scannable protections are scanned for this value
+	DWORD protect = 0x0;//this is for telling what memory pages to scan
 	BYTE bad_match_table[0xFF];
 
 
