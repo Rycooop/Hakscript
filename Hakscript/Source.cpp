@@ -19,4 +19,6 @@ int main(int argc, char** argv) {
 	}
 
 	Interpreter interpreter(&FileStream);
+	std::cout << interpreter.GetLastError() << std::endl;
+
 }
